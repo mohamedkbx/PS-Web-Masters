@@ -8,7 +8,7 @@ function findLargestNumber(arr) {
   return largest;
 }
 
-// Test Case
+// Test Case :
 const numbers = [3, 5, 7, 2, 8, 10, 4];
 console.log(findLargestNumber(numbers));
 
@@ -18,6 +18,7 @@ console.log(findLargestNumber(numbers));
 // i used loop approach for better space complexity instead of Math.max cause it use more memory O(n)
 // if we focus on code clarity we should use Math.max() function but it comes over space and if the arr is too large it will be a problem
 // but the solution :
+
 /*
  function findLargestNumber(arr) {
      return Math.max(...arr);
